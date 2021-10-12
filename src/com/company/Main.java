@@ -34,22 +34,28 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Введите данные певой страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU");
-        Geography g1 = new Geography();
+        int n = scanner.nextInt();
 
-        System.out.println("Введите данные второй страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU ");
-        Geography g2 = new Geography();
-        System.out.println("Введите данные третьей страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU" );
-        Geography g3 = new Geography();
-        System.out.println("Введите данные четвертой страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU ");
-        Geography g4 = new Geography();
+        Geography[] countries = new Geography[n];
+for(int i = 0; i < n;i++) {
+    System.out.println("Введите данные певой страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU");
+    Geography g1 = new Geography();
+   countries[i]= g1;
+//    System.out.println("Введите данные второй страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU ");
+//    Geography g2 = new Geography();
+//    System.out.println("Введите данные третьей страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU");
+//    Geography g3 = new Geography();
+//    System.out.println("Введите данные четвертой страны: 1)Гос, 2)Стол, 3)Нас, 4)Строй 1-G|0-GU ");
+//    Geography g4 = new Geography();
+}
 
 
 
 
-        Geography[] countries = {g1, g2, g3, g4};
+
 
 
 
