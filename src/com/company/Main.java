@@ -35,7 +35,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+ System.out.println("Введите количество географических объектов: ");
 
         int n = scanner.nextInt();
 
